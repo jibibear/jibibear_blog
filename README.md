@@ -1,2 +1,0 @@
-# jibibear_blog
-blog
