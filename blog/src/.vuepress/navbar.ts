@@ -49,4 +49,19 @@ export default navbar([
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  {
+    text: "视频",
+    icon: "video",
+    prefix: "/video/",
+    children: [
+      {
+        text: "bilibili",
+        icon: "pen-to-square",
+        prefix: "bilibili/",
+        children: [
+          { text: "苹果1", icon: "pen-to-square", link: "1" },
+        ],
+      },
+    ],
+  },
 ]);

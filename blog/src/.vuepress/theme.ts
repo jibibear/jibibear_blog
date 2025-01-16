@@ -6,11 +6,11 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
   author: {
-    name: "Mr.Hope",
+    name: "Mr.jibibear",
     url: "https://mister-hope.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "assets/images/wang.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -28,11 +28,11 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个有感觉的感觉",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      Baidu: "https://baidu.com",
+      BiliBili: "https://bilbili.com",
       Bitbucket: "https://example.com",
       Dingding: "https://example.com",
       Discord: "https://example.com",
