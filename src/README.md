@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: house
-title: 博客主页
+title: 主页
 heroImage: /pwa/144.png
 bgImage: assets/images/lake-1681485_1920.jpg
 bgImageDark: assets/images/lago-di-braies-4967576_1920.jpg
@@ -41,9 +41,11 @@ projects:
 
 footer: 自定义你的页脚文字
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+<div id="mo7-blog-hero-content">
+  <a target="_blank" class="link image-link link-1" href="https://jibibear.github.io/jibibear_blog/">
+    <img class="vp-blog-hero-image" src="/jibibear_blog1/src/.vuepress/public/pwa/monkey.gif" alt="" srcset="" />
+  </a>
+    <h1 class="vp-blog-hero-title">
+    jibibear 博客
+    </h1>
+</div>

@@ -9,9 +9,7 @@ export default defineUserConfig({
     '@components': path.resolve(__dirname, 'components'),
     '@src': SrcPath,
   },
-
   base: "/jibibear_blog/",
-
   lang: "zh-CN",
   title: "jibibear博客",
   description: "vuepress-theme-hope 的博客演示",

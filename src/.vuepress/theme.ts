@@ -15,20 +15,10 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+  // 博客相关
   blog: {
     name: 'jibibear',
     avatar: '//file.mo7.cc/static/lxh_gif/lxh_71.gif',
-  },
-  // 导航栏
-  navbar,
-  // 侧边栏
-  sidebar,
-  // 页脚
-  footer: "默认页脚",
-  displayFooter: true,
-
-  // 博客相关
-  blog: {
     description: "一个有感觉的感觉",
     intro: "/intro.html",
     medias: {
@@ -69,7 +59,13 @@ export default hopeTheme({
       },
     },
   },
-
+  // 导航栏
+  navbar,
+  // 侧边栏
+  sidebar,
+  // 页脚
+  footer: "默认页脚",
+  displayFooter: true,
   // 加密配置
   encrypt: {
     config: {
@@ -79,7 +75,7 @@ export default hopeTheme({
       },
     },
   },
-
+  iconAssets: '//at.alicdn.com/t/c/font_3855310_ue6zvltxqq.css',
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
@@ -170,15 +166,15 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
-
     components: {
       components: ["Badge", "VPCard"],
     },
-
     icon: {
       prefix: "fa6-solid:",
     },
-
+    pwa: {
+      favicon: '/favicon.ico',
+    },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
