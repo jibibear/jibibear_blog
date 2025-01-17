@@ -10,7 +10,7 @@ export default defineUserConfig({
     '@src': SrcPath,
   },
 
-  base: "/",
+  base: "/jibibear_blog/",
 
   lang: "zh-CN",
   title: "jibibear博客",
