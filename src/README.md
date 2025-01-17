@@ -43,7 +43,7 @@ footer: 自定义你的页脚文字
 ---
 <div id="mo7-blog-hero-content">
   <a target="_blank" class="link image-link link-1" href="https://jibibear.github.io/jibibear_blog/">
-    <img class="vp-blog-hero-image" src="/jibibear_blog1/src/.vuepress/public/pwa/monkey.gif" alt="" srcset="" />
+    <img class="vp-blog-hero-image" src="//file.mo7.cc/static/lxh_gif/lxh_71.gif" alt="" srcset="" />
   </a>
     <h1 class="vp-blog-hero-title">
     jibibear 博客
