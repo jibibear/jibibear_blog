@@ -30,10 +30,6 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-
       - name: 构建 VuePress 站点
         run: npm docs:build
 
