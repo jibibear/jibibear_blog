@@ -15,13 +15,14 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-
+  blog: {
+    name: 'jibibear',
+    avatar: '//file.mo7.cc/static/lxh_gif/lxh_71.gif',
+  },
   // 导航栏
   navbar,
-
   // 侧边栏
   sidebar,
-
   // 页脚
   footer: "默认页脚",
   displayFooter: true,

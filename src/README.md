@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: house
 title: 博客主页
-heroImage: 
+heroImage: /pwa/144.png
 bgImage: assets/images/lake-1681485_1920.jpg
 bgImageDark: assets/images/lago-di-braies-4967576_1920.jpg
 heroText: 呦呦博客
