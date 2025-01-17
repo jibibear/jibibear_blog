@@ -1,8 +1,15 @@
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
+import { getDirname, path } from 'vuepress/utils';
+const SrcPath = path.resolve(__dirname, '../');
 
 export default defineUserConfig({
+  alias: {
+    '@components': path.resolve(__dirname, 'components'),
+    '@src': SrcPath,
+  },
+
   base: "/",
 
   lang: "zh-CN",
