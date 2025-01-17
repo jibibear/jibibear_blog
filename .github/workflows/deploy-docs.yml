@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: 构建 VuePress 站点
-        run: npm docs:build
+        run: vuepress-vite build src
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
